@@ -64,10 +64,14 @@ dependencies {
     implementation(libs.converter.gson)
 
     //compose
-    implementation(libs.androidx.lifecycle.viewmodel.compose) // or latest version
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.coil.compose)
+
+    //swipe refresh
+    implementation (libs.accompanist.swiperefresh)
+
 
 
 }

@@ -30,7 +30,7 @@ fun SearchBar(
             .padding(horizontal = 8.dp),
         keyboardOptions = KeyboardOptions.Default.copy(imeAction = ImeAction.Search),
         keyboardActions = KeyboardActions(onSearch = {
-            // Optional: trigger search immediately
+
         }),
         shape = MaterialTheme.shapes.medium,
         colors = OutlinedTextFieldDefaults.colors(
